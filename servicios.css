@@ -1,0 +1,14 @@
+/* Estilo personalizado para el texto del menú desplegable */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important; /* Cambia "black" por el color que desees */
+}
+
+/* Estilo personalizado para el texto del menú desplegable dentro del dropdown */
+.navbar-dark .navbar-nav .nav-item.dropdown:hover .dropdown-menu a {
+    color: black !important; /* Cambia "black" por el color que desees */
+}
+
+/* Estilo personalizado para el texto del menú desplegable activo */
+.navbar-dark .navbar-nav .nav-item.dropdown.show .dropdown-menu a {
+    color: black !important; /* Cambia "black" por el color que desees */
+}
