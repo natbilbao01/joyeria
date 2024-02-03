@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        main section form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    color: rgb(255, 255, 255) !important; /* Cambia "black" por el color que desees */
+}
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +20,19 @@
     <link rel="stylesheet" href="/servicios.css">
     <title>Jewelery Art</title></head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Inicio barra de navegacion -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" style="width: 200px;">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link"  href="#">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Contacto</a>
@@ -39,6 +55,7 @@
         </div>
     </div>
 </nav>
+<!-- Fin barra de navegacion -->
 <main>
     <section>
         <form action="procesar_formulario.php" method="post" class="container mt-4">
