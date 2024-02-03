@@ -1,5 +1,5 @@
 /* Estilo personalizado para el texto del menú desplegable */
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link, footer {
     color: rgb(255, 255, 255) !important; /* Cambia "black" por el color que desees */
 }
 
@@ -11,4 +11,12 @@
 /* Estilo personalizado para el texto del menú desplegable activo */
 .navbar-dark .navbar-nav .nav-item.dropdown.show .dropdown-menu a {
     color: black !important; /* Cambia "black" por el color que desees */
+}
+main section form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
