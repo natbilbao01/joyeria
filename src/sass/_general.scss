@@ -1,0 +1,30 @@
+h1, h2, h4.brand {
+	text-transform: uppercase;
+}
+h2, h3, h4, h5 {
+	font-weight: 700;
+}
+h2 {
+	@media (max-width: 575px) {
+		font-size: 44px;
+	}
+}
+h4 {
+	color: $brand-secondary;
+}
+h6 {
+	color: inherit;
+}
+p {
+	font-weight: 300;
+}
+.btn-outline-secondary {
+	color: $brand-secondary !important;
+	background-color: $transparent !important;
+	border-color: $brand-secondary !important;
+	&:hover {
+		color: $black !important;
+		background-color: $brand-secondary !important;
+		border-color: $brand-secondary !important;
+	}
+}

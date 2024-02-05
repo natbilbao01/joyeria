@@ -1,0 +1,71 @@
+header {
+	background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	.container {
+		min-height: 800px;
+		@media (max-width: 767px) {
+			min-height: 100vh;
+			height: 100%;
+		}
+		nav {
+			margin-top: 33px;
+			h4.brand {
+				margin: 0;
+			}
+			ul {
+				@media (max-width: 767px) {
+					padding-top: 50px;
+				}
+				@media (max-width: 575px) {
+					padding-top: 25px;
+					width: 250px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				a {
+					color: $brand-secondary;
+					font-size: 14px;
+					&:hover {
+						color: $brand-primary;
+					}
+				}
+			}
+		}
+		.hero-text {
+			padding-top: 20px;
+			hgroup {
+				margin-bottom: 37px;
+				@media (max-width: 575px) {
+					margin-bottom: 50px;
+				}
+				h1 {
+					color: $brand-secondary;
+					margin-top: 31px;
+					font-weight: 700;
+					line-height: 1;
+					@media (max-width: 575px) {
+						font-size: calc(6.5vw + 20px);
+					}
+				}
+				h4 {
+					font-weight: 300;
+					margin: 0;
+					@media (max-width: 575px) {
+						font-size: calc(2.4vw + 10px);
+					}
+				}
+			}
+			a {
+				padding: 17px 40px;
+				margin-right: 22px;
+				@media (max-width: 575px) {
+					display: block;
+					margin: 3vh 25px;
+				}
+			}
+
+		}
+
+	}
+}
